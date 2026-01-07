@@ -56,13 +56,20 @@ This project intentionally avoids advanced modeling in order to strengthen found
 
 ---
 
-## Next Steps
+## From EDA to Modeling
 
-Possible extensions include:
-- Linear trend approximation
-- Correlation vs causation examples
-- Introduction to simple statistical tests
-- Transition from EDA to modeling
+The final notebooks in this series mark a transition from pure exploration to simple modeling ideas.
+
+After identifying relationships between variables through visualization, a basic linear trend is introduced as an approximation tool.  
+The goal is not prediction or optimization, but understanding how exploratory patterns can be summarized mathematically.
+
+This transition emphasizes:
+- Modeling as an extension of exploration
+- The difference between approximation and explanation
+- The importance of interpreting models cautiously
+
+Advanced modeling techniques are intentionally left out to keep the focus on foundational reasoning.
+
 
 
 

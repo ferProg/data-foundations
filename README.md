@@ -42,6 +42,9 @@ Shows how dispersion metrics capture different aspects of the data.
 Uses scatter plots to explore relationships between variables.  
 Stresses the difference between association and causation.
 
+### 07 - Linear Trend Approximation
+Introduces a simple linear trend as a way to approximate the relationship betweeen two quantitative variables.
+
 ---
 
 ## Key Principles
@@ -70,6 +73,23 @@ This transition emphasizes:
 
 Advanced modeling techniques are intentionally left out to keep the focus on foundational reasoning.
 
+## Exploratory Data Analysis (EDA)
+
+This project begins with a structured EDA block designed to demonstrate
+foundational data analysis skills and analytical judgment.
+
+### EDA Notebooks
+
+- **01_reading_tables_and_categorical_data**
+- **02_describing_quantitative_data**
+- **03_comparing_groups**
+- **04_variability_iqr_and_std**
+- **05_relationships_between_variables**
+- **07_linear_trend_approximation**
+- **08_eda_summary_and_limits**
+
+The focus of this block is not advanced techniques, but clarity of reasoning,
+visual literacy, and respect for the limits of data.
 
 
 

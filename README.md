@@ -1,95 +1,107 @@
-# Data Foundations – Exploratory Data Analysis
+# Data Foundations
 
-This repository contains a structured set of notebooks focused on the fundamentals of Exploratory Data Analysis (EDA).
+A structured, portfolio-oriented repository covering **EDA fundamentals** and a clean transition into **basic linear modeling**, plus an **applied mini-project** using a real dataset.
 
-The goal of this project is to build a solid understanding of how to explore, describe, and interpret data before applying statistical tests or machine learning models.
+The emphasis is on: clear exploration, honest interpretation, and respecting the limits of what data can (and cannot) prove.
 
 ---
 
-## Project Structure
-
-- `data/`  
-  Contains simple, clean CSV files used for demonstration purposes.
+## Repository Structure
 
 - `notebooks/`  
-  Sequential notebooks covering core EDA concepts.
+  Foundations track: EDA → relationships → linear modeling → evaluation.
+
+- `data/`  
+  Small, simple CSV files used in the foundations notebooks.
+
+- `projects/`  
+  Applied mini-projects with real datasets (each project has its own folder).
+
+- `README_linear_models.md`  
+  A focused summary of the linear modeling block (recommended reading if you want the story arc).
 
 ---
 
-## EDA Notebooks Overview
+## Foundations Track (Notebooks)
 
-### 01 – Reading Tables and Categorical Data  
-Introduces basic data loading, frequency tables, and bar charts.  
-Focuses on understanding what can and cannot be concluded from categorical counts.
+### EDA Foundations
+- **01_reading_tables_and_categorical_data**  
+  Frequency tables + bar charts + interpretation limits for categorical data.
 
-### 02 – Describing Quantitative Data  
-Explores histograms, mean, and median.  
-Highlights how different summaries affect interpretation.
+- **02_describing_quantitative_data**  
+  Histograms, mean/median, boxplots, and how visualization changes interpretation.
 
-### 03 – Distributions, Skewness, and Outliers  
-Examines distribution shape, skewness, and extreme values.  
-Emphasizes the role of visualization in detecting structure and anomalies.
+- **03_comparing_groups**  
+  Comparing distributions across groups (descriptive comparisons only).
 
-### 04 – Comparing Distributions Across Groups  
-Compares quantitative distributions between groups using boxplots.  
-Discusses observed differences while avoiding causal claims.
+- **04_variability_iqr_and_std**  
+  Variability measures: IQR vs standard deviation and what each captures.
 
-### 05 – Variability, IQR, and Standard Deviation  
-Focuses on different measures of variability and their interpretation.  
-Shows how dispersion metrics capture different aspects of the data.
+- **05_relationships_between_variables**  
+  Scatter plots and cautious interpretation of association.
 
-### 06 – Relationships Between Quantitative Variables  
-Uses scatter plots to explore relationships between variables.  
-Stresses the difference between association and causation.
+- **07_linear_trend_approximation**  
+  A simple linear trend as an exploratory approximation tool.
 
-### 07 - Linear Trend Approximation
-Introduces a simple linear trend as a way to approximate the relationship betweeen two quantitative variables.
+- **08_eda_summary_and_limits**  
+  EDA closure: what EDA helps with vs what it cannot conclude.
+
+### Linear Modeling (Simple, Interpretable)
+- **09_simple_linear_regression**  
+  Fit a linear regression model (focus on meaning, not optimization).
+
+- **10_interpreting_coefficients_and_residuals**  
+  Coefficients + residual plots to assess model behavior.
+
+- **11_when_linear_models_fail**  
+  Examples of assumption violations (non-linearity, heteroscedasticity, outliers).
+
+- **12_evaluating_linear_models**  
+  Metrics (R², MAE) and why metrics don’t replace reasoning.
+
+- **13_train_test_split_and_generalization**  
+  Train/test split to evaluate generalization and avoid overly optimistic results.
+
+➡️ For a concise narrative of the modeling block, see **`README_linear_models.md`**.
 
 ---
 
-## Key Principles
+## Applied Projects
 
-Across all notebooks, the emphasis is on:
-- Clear visual exploration
-- Appropriate use of summary statistics
-- Awareness of interpretation limits
-- Avoiding unwarranted conclusions
+### Student Performance (UCI)
+Location: `projects/student_performance/`
 
-This project intentionally avoids advanced modeling in order to strengthen foundational data reasoning skills.
+This mini-project applies the same foundations workflow to a real dataset:
+- loading + first-pass cleaning
+- exploratory analysis (including a discussion of potential leakage with early-period grades)
+- simple modeling + evaluation
+- conclusions and limitations
 
 ---
 
-## From EDA to Modeling
+## How to Run
 
-The final notebooks in this series mark a transition from pure exploration to simple modeling ideas.
+1. Clone the repo and move into it:
+   ```bash
+   git clone git@github.com:ferProg/data-foundations.git
+   cd data-foundations
+2. Create and activate an environment (example with venv):
+    python -m venv .venv
+    # Windows:
+    .venv\Scripts\activate
+    # macOS/Linux:
+    source .venv/bin/activate
+3. Install dependencies:
+    pip install -U pip
+    pip install pandas numpy matplotlib scikit-learn jupyter
+4. Start Jupyter:
+    jupyter notebook
 
-After identifying relationships between variables through visualization, a basic linear trend is introduced as an approximation tool.  
-The goal is not prediction or optimization, but understanding how exploratory patterns can be summarized mathematically.
+## Notes
 
-This transition emphasizes:
-- Modeling as an extension of exploration
-- The difference between approximation and explanation
-- The importance of interpreting models cautiously
+* Notebooks are designed to be read as a progression (not isolated exercises).
 
-Advanced modeling techniques are intentionally left out to keep the focus on foundational reasoning.
+* Interpretation is intentionally cautious: association ≠ causation, and metrics ≠ truth.
 
-## Exploratory Data Analysis (EDA)
-
-This project begins with a structured EDA block designed to demonstrate
-foundational data analysis skills and analytical judgment.
-
-### EDA Notebooks
-
-- **01_reading_tables_and_categorical_data**
-- **02_describing_quantitative_data**
-- **03_comparing_groups**
-- **04_variability_iqr_and_std**
-- **05_relationships_between_variables**
-- **07_linear_trend_approximation**
-- **08_eda_summary_and_limits**
-
-The focus of this block is not advanced techniques, but clarity of reasoning,
-visual literacy, and respect for the limits of data.
-
-
+* The goal is strong fundamentals and clear reasoning before advancing to more complex methods.
 

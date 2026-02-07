@@ -49,27 +49,27 @@ The goal is to learn how data behaves, what linear models can and cannot explain
 
 ## 📈 Linear Regression Block
 
-### 09 — Simple Linear Regression
+[## 09_simple_linear_regression](notebooks/09_simple_linear_regression.ipynb)
 - Fitting a basic linear model
 - Interpreting slope and intercept
 - Linear relationship assumptions
 
-### 10 — Interpreting Coefficients and Residuals
+[## 10_interpreting_coefficients_and_residuals](notebooks/10_interpreting_coefficients_and_residuals.ipynb)
 - Meaning of coefficients
 - Residual analysis
 - What residuals reveal about model fit
 
-### 11 — When Linear Models Fail
+[## 11_when_linear_models_fail](notebooks/11_when_linear_models_fail.ipynb)
 - Non-linearity
 - Heteroscedasticity
 - Outliers and leverage points
 
-### 12 — Evaluating Linear Models (Metrics)
+[## 12_evaluating_linear_models](notebooks/12_evaluating_linear_models.ipynb)
 - R², MAE, and their interpretation
 - Why metrics alone are not enough
 - The danger of metric-driven conclusions
 
-### 13 — Train-Test Split and Generalization
+[## 13_train_test_split_and_generalization](notebooks/13_train_test_split_and_generalization.ipynb)
 - Separating training and testing data
 - Evaluating performance on unseen data
 - Overfitting and generalization limits
@@ -102,3 +102,6 @@ Future work may include:
 - Multiple linear regression
 - Non-linear models
 - Applied mini-projects with real-world datasets
+
+⬅️ Back to repository overview: [README.md](README.md)
+

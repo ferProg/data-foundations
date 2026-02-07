@@ -1,3 +1,6 @@
+⬅️ Back to repository overview: [README.md](../../README.md)  
+➡️ Linear models foundations: [README_linear_models.md](../../README_linear_models.md)
+
 # Student Performance (UCI) — Applied Mini Project
 
 This project applies the foundations workflow (EDA → modeling → evaluation) to a real-world educational dataset.
@@ -34,24 +37,32 @@ The UCI CSV uses `;` as a separator.
 
 ## Notebooks
 
-### 01 — `01_loading_and_cleaning.ipynb`
+### 01 — Loading and cleaning
+- [01_loading_and_cleaning.ipynb](notebooks/01_loading_and_cleaning.ipynb)
+
 - Load the raw dataset
 - Initial data quality checks (types, missing values, duplicates)
 - First-pass cleaning
 - Export cleaned dataset for consistent downstream use
 
-### 02 — `02_exploratory_analysis.ipynb`
+### 02 — Exploratory analysis
+- [02_exploratory_analysis.ipynb](notebooks/02_exploratory_analysis.ipynb)
+
 - Target distribution (G3)
 - Key relationships and group comparisons
 - Hypotheses to guide modeling
 - Explicit discussion of modeling scenarios
 
-### 03 — `03_simple_modeling.ipynb` *(planned)*
+### 03 — Simple modeling *(planned)*
+- [03_simple_modeling.ipynb](notebooks/03_simple_modeling.ipynb)
+
 - Train/test split
 - Baseline linear model
 - Model comparison with and without early-period grades
 
-### 04 — `04_conclusions_and_limits.ipynb` *(planned)*
+### 04 — Conclusions and limits *(planned)*
+- [04_conclusions_and_limits.ipynb](notebooks/04_conclusions_and_limits.ipynb)
+
 - Summary of findings
 - Practical interpretation and limits
 - What this analysis cannot conclude

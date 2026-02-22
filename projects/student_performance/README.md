@@ -53,14 +53,14 @@ The UCI CSV uses `;` as a separator.
 - Hypotheses to guide modeling
 - Explicit discussion of modeling scenarios
 
-### 03 — Simple modeling *(planned)*
+### 03 — Simple modeling 
 - [03_simple_modeling.ipynb](notebooks/03_simple_modeling.ipynb)
 
 - Train/test split
 - Baseline linear model
 - Model comparison with and without early-period grades
 
-### 04 — Conclusions and limits *(planned)*
+### 04 — Conclusions and limits
 - [04_conclusions_and_limits.ipynb](notebooks/04_conclusions_and_limits.ipynb)
 
 - Summary of findings
